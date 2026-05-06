@@ -4,8 +4,6 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.13+-ee4c2c.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![arXiv](https://img.shields.io/badge/arXiv-2505.12345-b31b1b.svg)](https://arxiv.org/abs/2505.12345)
 
 > Автоматическая оцифровка бумажных схем для вышивки крестиком с помощью свёрточных нейросетей (U‑Net, ResU‑Net) и классической постобработки.
 
