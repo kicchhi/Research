@@ -60,29 +60,29 @@
 
 ## 📁 Структура репозитория
 
-```
+```bash
 cross-stitch-digitizer/
-├── architectures.py              # Классы UNet, ResUNet, фабрика моделей
-├── train_experiment.py           # Скрипт обучения и сравнения
-├── compare_models.py             # Тестирование обученных моделей
-├── cross_stitch_editor.py        # Графический редактор схем
-├── requirements.txt              # Зависимости
+├── README.md                     # Описание проекта
+├── Research_Stitch_Vision.pdf    # Статья
 │
-├── train_images/                 # Исходные схемы для обучения
-├── train_masks/                  # Бинарные маски (ground truth)
-├── val_images/                   # Схемы для валидации
-├── val_masks/                    # Маски для валидации
-├── test_images/                  # Тестовые схемы
-├── results/                      # Результаты экспериментов
-│   ├── comparison_*.png          # Визуализации сравнения
-│   └── comparison_summary.json   # Итоговая таблица метрик
+├── scripts/                      # Скрипты обучения и анализа
+│   ├── architectures.py          # Классы UNet, ResUNet, фабрика моделей
+│   ├── main.ipynb                # Основной ноутбук с обучением
+│   ├── prediction.ipynb          # Предсказание
+│   └── readme.md                 # Описание скриптов
 │
-└── docs/     
-    ├── teaser.png
-    ├── comparison.png
-    ├── pipeline.png 
-    └── editor.png
-```
+├── editor/                       # Графический редактор схем
+│   ├── cross_stitch_editor.py    # Основной файл редактора
+│   ├── canvas_widget.py          # Холст для отрисовки сетки
+│   ├── main.py                   # Точка входа в редактор
+│   └── readme.md                 # Описание редактора
+│
+└── docs/                         # Изображения
+    ├── teaser.png                # Превью 
+    ├── comparison.png            # Сравнение моделей
+    ├── output.png                # Пример вывода
+    └── app.png                   # Скриншот редактора
+
 
 ---
 
