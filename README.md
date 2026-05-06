@@ -60,7 +60,8 @@
 
 ## 📁 Структура репозитория
 
-cross-stitch-digitizer|
+```
+cross-stitch-digitizer/
 ├── architectures.py              # Классы UNet, ResUNet, фабрика моделей
 ├── train_experiment.py           # Скрипт обучения и сравнения
 ├── compare_models.py             # Тестирование обученных моделей
@@ -81,7 +82,7 @@ cross-stitch-digitizer|
     ├── comparison.png
     ├── pipeline.png 
     └── editor.png
-
+```
 
 ---
 
