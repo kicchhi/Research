@@ -125,4 +125,4 @@ python cross_stitch_editor.py
 - Инструменты: кисть, ластик, пипетка, заливка, текст.
 - Палитра цветов и история действий.
 
-<div align="center"> <img src="docs/editor.png" width="700" alt="Интерфейс редактора CrossStitch Pro"/> </div>
+<div align="center"> <img src="docs/app.png" width="700" alt="Интерфейс редактора CrossStitch Pro"/> </div>
